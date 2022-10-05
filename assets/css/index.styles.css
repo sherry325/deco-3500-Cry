@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* Variables */
+:root {
+  --font-family: "Fredoka One", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --primary-bg-color: #202020;
+  --secondary-bg-color: #282828;
+  --primary-color: #FEE715FF;
+  --secondary-color: #ff7235;
+  --tertiary-color: #ffffff;
+  --primary-shadow: rgba(0, 0, 0, .3);
+  --secondary-shadow: #f8f8f8;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--primary-bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+.screen {
+  background: white;
+  width: 450px;
+  height: 800px;
+  margin-top: 2vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.screenTopImage {
+  width: 100%;
+}
+
+.title {
+  font-size:2rem;
+  padding:1.5rem;
+  width: 100%;
+}
+
+.input {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input > input {
+  width: 100%;
+  margin-bottom: 1rem;
+  height: 3rem;
+  padding: 1rem;
+}
+
+.input > span {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.button {
+  width: 90%;
+  background: #2d9bf1;
+  height: 3rem;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.policy {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1.5rem
+}
+
+.policy span {
+  margin-bottom: 0.5rem;
+  color: #3f53d9
+}
+
+
+

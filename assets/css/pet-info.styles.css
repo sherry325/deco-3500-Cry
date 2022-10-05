@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* Variables */
+:root {
+  --font-family: "Fredoka One", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --primary-bg-color: #202020;
+  --secondary-bg-color: #282828;
+  --primary-color: #FEE715FF;
+  --secondary-color: #ff7235;
+  --tertiary-color: #ffffff;
+  --primary-shadow: rgba(0, 0, 0, .3);
+  --secondary-shadow: #f8f8f8;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--primary-bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+.screen {
+  width: 450px;
+  background: white;
+  height: 800px;
+  margin-top: 2vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.screenTop {
+  width: 100%;
+  height:4rem;
+  border-bottom: 1px solid black;
+}
+
+.block {
+  width: 22rem;
+  height: 22rem;
+  border: 2px solid black;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem 2rem 1rem;
+  justify-content: space-between;
+}
+
+.block > img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
