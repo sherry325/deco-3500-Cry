@@ -3,32 +3,44 @@ function navigate (path) {
 }
 
 function showAddTaskOverlay () {
-	let addTaskOverlay = document.querySelector('div.addTaskOverlay');
-	let overlayBackground = document.querySelector('div.overlayBackground');
+	const addTaskOverlay = document.querySelector('div.addTaskOverlay');
+	const overlayBackground = document.querySelector('div.overlayBackground');
 	
 	addTaskOverlay.style.display = 'flex';
 	overlayBackground.style.display = 'initial';
 }
 
 function hideAddTaskOverlay () {
-	let addTaskOverlay = document.querySelector('div.addTaskOverlay');
-	let overlayBackground = document.querySelector('div.overlayBackground');
+	const addTaskOverlay = document.querySelector('div.addTaskOverlay');
+	const overlayBackground = document.querySelector('div.overlayBackground');
 
 	addTaskOverlay.style.display = 'none';
 	overlayBackground.style.display = 'none';
 }
 
+function saveTask () {
+	const input = document.querySelector('input');
+	const taskBox = document.querySelector('div.smallBox');
+	const task = document.querySelector('div.smallBox > span.innerText');
+	const addTaskBox = document.querySelector('div.smallBoxDotBorder');
+
+	task.innerHTML = input.value;
+	taskBox.style.display = 'flex';
+	addTaskBox.style.display = 'none';
+	hideAddTaskOverlay();
+}
+
 function showTimerOverlay () {	
-	let timerOverlay = document.querySelector('div.timerOverlay');
-	let overlayBackground = document.querySelector('div.overlayBackground');
+	const timerOverlay = document.querySelector('div.timerOverlay');
+	const overlayBackground = document.querySelector('div.overlayBackground');
 
 	timerOverlay.style.display = 'flex';
 	overlayBackground.style.display = 'initial';
 }
 
 function hideTimerOverlay () {
-	let timerOverlay = document.querySelector('div.timerOverlay');
-	let overlayBackground = document.querySelector('div.overlayBackground');
+	const timerOverlay = document.querySelector('div.timerOverlay');
+	const overlayBackground = document.querySelector('div.overlayBackground');
 
 	timerOverlay.style.display = 'none';
 	overlayBackground.style.display = 'none';

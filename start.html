@@ -23,6 +23,12 @@
           <span class="smallButton">Add Task</span>
           <span class="plusSign">+</span>
         </div>
+        <div class="smallBox task" onclick="showAddTaskOverlay()">
+          <span class="smallRoundArea taskLabel">
+            <span>Task</span>
+          </span>
+          <span class="innerText"></span>
+        </div>
       </div>
       <div class="history">
         <div class="subTitle">Task History</div>
@@ -62,7 +68,7 @@
     <div class="addTaskOverlay">
       <div>Add Task</div>
       <input class="input">
-      <span class="overlayButton" onclick="hideAddTaskOverlay()"><span>Save</span></span>
+      <span class="overlayButton" onclick="saveTask()"><span>Save</span></span>
     </div>
   </body>
 </html>

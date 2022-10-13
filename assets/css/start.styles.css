@@ -114,6 +114,7 @@ body {
 }
 
 .smallBox {
+  font-family: var(--font-family);
   width: 104px;
   height: 92px;
   background: white;
@@ -210,6 +211,18 @@ body {
 .innerText {
   font-size: 0.75rem;
   padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.task {
+  display: none;
+}
+
+.task:hover {
+  cursor: pointer;
+}
+
+.taskLabel {
+  background: #ABC270;
 }
 
 .overlayBackground {
