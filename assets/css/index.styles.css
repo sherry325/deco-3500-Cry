@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* Variables */
+:root {
+  --font-family: "Fredoka One", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --primary-bg-color: #202020;
+  --secondary-bg-color: #282828;
+  --primary-color: #FEE715FF;
+  --secondary-color: #ff7235;
+  --tertiary-color: #ffffff;
+  --primary-shadow: rgba(0, 0, 0, .3);
+  --secondary-shadow: #f8f8f8;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--primary-bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+.screen {
+  background: #F3EDE0;
+  width: 450px;
+  height: 800px;
+  margin-top: 2vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.screenTopImage {
+  width: 100%;
+}
+
+.title {
+  font-size:3.75rem;
+  padding:1.5rem;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+div > span:first-of-type {
+  color: #E83F6F;
+}
+
+div > span:nth-of-type(2) {
+  color: #32936F;
+}
+
+div > span:last-of-type {
+  color: #2274A5;
+}
+
+.button {
+  background: #ABC270;
+  border-radius: 39.5px;
+  padding: 1rem;
+  color: white;
+  font-size: 1.875rem;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+
+

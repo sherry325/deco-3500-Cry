@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/start.styles.css" />
+    <title>Pet</title>
+  </head>
+
+  <body>
+    <script src="assets/js/app.js"></script>
+   	<div class="screen">
+      <div class="topButton" onclick="navigate('friends.html')"><span class="topButtonText">Bulletin Board</span></div>
+		  <div class="subTitle">Good morning! Peony!<br/>
+        <span class="plan">Ready to set plan!</span>
+      </div>
+      <div class="dailyTask">
+        <div class="title">Daily Task</div>
+        <div class="smallBoxDotBorder" onclick="showAddTaskOverlay()">
+          <span class="smallButton">Add Task</span>
+          <span class="plusSign">+</span>
+        </div>
+      </div>
+      <div class="history">
+        <div class="subTitle">Task History</div>
+        <div class="overflowSection">
+          <div class="smallBox">
+            <span class="smallRoundArea">
+              <span>Completed</span>
+            </span>
+            <span class="innerText">Finished DECO 3500 assignment!</span>
+          </div>
+          <div class="smallBox">
+            <span class="smallRoundArea">
+              <span>Completed</span>
+            </span>
+            <span class="innerText">Play game with friends!</span>
+          </div>
+        </div>
+      </div>
+      <div class="consecutive">
+        <div class="subTitle">Longest Consecutive Time</div>
+        <div class="timeSlot">
+          <div class="box">
+            <span>Monday  04/10</span>
+            <span class="timeNumber">67</span>
+            <span>minutes</span>
+          </div>
+          <div class="box">
+            <span>Tuesday  05/10</span>
+            <span class="timeNumber">93</span>
+            <span>minutes</span>
+          </div>
+        </div>
+      </div>
+      <span class="button" onclick="navigate('timer.html')">Change Timer Settings</span>
+   	</div>
+    <div class="overlayBackground" onclick="hideAddTaskOverlay()"></div>
+    <div class="addTaskOverlay">
+      <div>Add Task</div>
+      <input class="input">
+      <span class="overlayButton" onclick="hideAddTaskOverlay()"><span>Save</span></span>
+    </div>
+  </body>
+</html>

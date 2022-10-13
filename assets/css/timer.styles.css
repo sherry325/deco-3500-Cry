@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One:ital,wght@0,400;0,900;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* Variables */
+:root {
+  --font-family: "Fredoka", sans-serf;
+  --font-family-one: "Fredoka One", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --primary-bg-color: #202020;
+  --secondary-bg-color: #282828;
+  --primary-color: #FEE715FF;
+  --secondary-color: #ff7235;
+  --tertiary-color: #ffffff;
+  --primary-shadow: rgba(0, 0, 0, .3);
+  --secondary-shadow: #f8f8f8;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-one);
+  background-color: var(--primary-bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+.screen {
+  width: 450px;
+  background: white;
+  height: 800px;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.screenTop {
+  width: 100%;
+  padding: 2rem 2rem 1rem 1rem;
+}
+
+.screenTop > svg:hover {
+  cursor: pointer;
+}
+
+.title {
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 48.4px;
+}
+
+.title > span {
+  color: #32936F;
+}
+
+.subTitle {
+  font-family: var(--font-family);
+  color: #000000;
+  opacity: 0.32;
+  margin-bottom: 3rem;
+}
+
+.toggleBlock {
+  width: 100%;
+  border-top: 2px solid #ABC2703D;
+  border-bottom: 2px solid #ABC2703D;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+  background: #F3EDE0;
+}
+
+.toggleBlock > img {
+  height: 100%;
+}
+
+.button {
+  background: #ABC270;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+  font-size: 1.5rem;
+  color: white;
+  width: 211px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.doneButton {
+  background: #FEC868;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 10rem;
+  width: 202px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.doneButton:hover {
+  cursor: pointer;
+}
+
+.overlayBackground {
+  display: none;
+  position: absolute;
+  top: 2vh;
+  border-radius: 6px;
+  opacity: 0.5;
+  width: 450px;
+  height: 800px;
+  background: black;
+}
+
+.timerOverlay {
+  display: none;
+  position: absolute;
+  background: white;
+  width: 450px;
+  height: 400px;
+  bottom: 2vh;
+  border-top-left-radius: 95px;
+  border-top-right-radius: 95px;
+  border: 3px solid #FDA769;
+}
+

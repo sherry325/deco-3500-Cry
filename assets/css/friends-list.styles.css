@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One:ital,wght@0,400;0,900;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* Variables */
+:root {
+  --font-family: "Fredoka", sans-serf;
+  --font-family-one: "Fredoka One", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --primary-bg-color: #202020;
+  --secondary-bg-color: #282828;
+  --primary-color: #FEE715FF;
+  --secondary-color: #ff7235;
+  --tertiary-color: #ffffff;
+  --primary-shadow: rgba(0, 0, 0, .3);
+  --secondary-shadow: #f8f8f8;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-one);
+  background-color: var(--primary-bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+.screen {
+  width: 450px;
+  background: white;
+  height: 800px;
+  margin-top: 2vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.screenTop {
+  width: 100%;
+  padding: 2rem 2rem 1rem 1rem;
+}
+
+.screenTop > svg:hover {
+  cursor: pointer;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.input {
+  width: 364px;
+  height: 48px;
+  border: 2px solid #0303033D;
+  border-radius: 16px;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background: #DFDFDF66;
+}
+
+.uid {
+  width: 100%;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: flex-end;
+  font-family: var(--font-family);
+}
+
+.friendList {
+  margin-top: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.friend {
+  width: 100%;
+  height: 72px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.friendYellow {
+  background: #FFBF003D;
+}
+
+.name {
+  font-size: 2rem;
+  color: #473C33;
+}
+
