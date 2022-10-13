@@ -93,7 +93,6 @@ body {
   height: 72px;
   padding: 1rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
