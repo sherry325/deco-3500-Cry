@@ -25,10 +25,14 @@ function saveTask () {
 	const taskBox = document.querySelector('div.smallBox');
 	const task = document.querySelector('div.smallBox > span.innerText');
 	const addTaskBox = document.querySelector('div.smallBoxDotBorder');
+	const emoji = document.querySelector('div.emoji');
+	const button = document.querySelector('span.button');
 
 	task.innerHTML = input.value;
 	taskBox.style.display = 'flex';
 	addTaskBox.style.display = 'none';
+	emoji.style.display = 'initial';
+	button.style.margin = '0 3rem';
 	hideAddTaskOverlay();
 }
 

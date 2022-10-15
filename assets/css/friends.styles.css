@@ -76,6 +76,9 @@ body {
 }
 
 .box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   width: 160px;
   height: 160px;
   margin: 0.5rem;
@@ -109,8 +112,26 @@ body {
 }
 
 .task {
-  font-size: 2rem;
+  font-size:1.5rem;
   text-align: center;
 }
 
+.emoji {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+}
+
+.emoji > span {
+  cursor: pointer;
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
