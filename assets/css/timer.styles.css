@@ -110,6 +110,10 @@ body {
   cursor: pointer;
 }
 
+.time {
+  pointer-events: none;
+}
+
 .doneButton {
   background: #FEC868;
   border-radius: 32px;
@@ -139,14 +143,53 @@ body {
 }
 
 .timerOverlay {
-  display: none;
+  width: 323px;
+  height: 264px;
   position: absolute;
+  background: #D9D9D9;
+  border-radius: 2rem;
+  top: 244px;
+  justify-content: flex-start;
+  font-size: 28px;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+
+.error {
+  font-size: 1rem;
+  margin: 0;
+  color: #f70000;
+  margin-top: 0.5rem;
+  display: none;
+}
+
+.input {
+  margin-top: 2rem;
   background: white;
-  width: 450px;
-  height: 400px;
-  bottom: 2vh;
-  border-top-left-radius: 95px;
-  border-top-right-radius: 95px;
-  border: 3px solid #FDA769;
+  height: 47px;
+  width: 265px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+}
+
+.overlayButton {
+  background: #FFCA28;
+  height: 3rem;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  margin: 2rem 3rem;
+  color: white;
+}
+
+.overlayButton:hover {
+  cursor: pointer;
 }
 
