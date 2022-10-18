@@ -71,3 +71,7 @@ function saveTime () {
 		hideTimerOverlay();
 	}
 }
+
+function emojiSent (event) {
+	event.target.style.opacity = 0.5;
+}
