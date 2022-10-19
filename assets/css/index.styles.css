@@ -48,6 +48,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 6px;
+  overflow: auto;
 }
 
 .screenTopImage {
