@@ -23,3 +23,16 @@ For a detailed explanations on what this proposed app is and how it came to be, 
 
 <a href="https://github.com/sherry325/deco-3500-Cry/wiki/Concept-Proposal">Concept Proposal</a>:  
 * Written during the initial design process where we defined our domain and problem space, proposed potential prototypes, and introduced the team
+
+# Installation instruction
+Pre-condition: make sure you have npm install.
+
+Installation steps:
+1. Clone or download the repositry to local directory
+2. Navigate to the directory in a terminal
+3. Run `npm install serve`
+4. Run `serve .`
+
+Fallback installation:
+1. Clone or download the repositry to local directory
+2. Open `index.html` in any browser.
