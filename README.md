@@ -18,5 +18,8 @@ For a detailed explanations on what this proposed app is and how it came to be, 
 <a href="https://github.com/sherry325/deco-3500-Cry/wiki/Team-Progress#task-allocation">Task Allocations</a>: 
 * A breakdown of our team members and responsibilities 
 
+<a href="https://github.com/sherry325/deco-3500-Cry/wiki/Research">Research</a>:
+* Some key research papers, user surveys and interviews that were important to our design process
+
 <a href="https://github.com/sherry325/deco-3500-Cry/wiki/Concept-Proposal">Concept Proposal</a>:  
 * Written during the initial design process where we defined our domain and problem space, proposed potential prototypes, and introduced the team
