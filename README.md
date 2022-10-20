@@ -25,7 +25,7 @@ For a detailed explanations on what this proposed app is and how it came to be, 
 * Written during the initial design process where we defined our domain and problem space, proposed potential prototypes, and introduced the team
 
 # Installation instruction
-Pre-condition: make sure you have npm install.
+Pre-condition: make sure you have `npm` install.
 
 Installation steps:
 1. Clone or download the repositry to local directory
