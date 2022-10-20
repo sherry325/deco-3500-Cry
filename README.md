@@ -3,6 +3,9 @@
 Hello! This project aims to improve time management skills for university students while integrating social and mobile technologies and concepts. 
 For a detailed explanations on what this proposed app is and how it came to be, check out the following wiki pages:
 
+<a href="https://github.com/sherry325/deco-3500-Cry/wiki/Final-Prototype">Final Prototype</a>:
+* Installation instructions for our final prototype
+
 <a href="https://github.com/sherry325/deco-3500-Cry/wiki/Promotional-Materials">Promotional Materials</a>:  
 * Our promotional materials for the demonstration: Poster and Kickstarter video
 
