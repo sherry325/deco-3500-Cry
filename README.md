@@ -12,7 +12,7 @@ For a detailed explanations on what this proposed app is and how it came to be, 
 <a href="https://github.com/sherry325/deco-3500-Cry/wiki/Design-Process-Overview">Design Process Overview</a>:  
 * Our design process which explains how the prototype came to be and why it is the way it is
 
-<a href="https://github.com/sherry325/deco-3500-Cry/wiki/Team-Progress#weekly-progress">Weekly Progress</a>: 
+<a href="https://github.com/sherry325/deco-3500-Cry/wiki/Weekly-Progress">Weekly Progress</a>: 
 * A more detailed week-by-week documentation of our progress
 
 <a href="https://github.com/sherry325/deco-3500-Cry/wiki/Team-Progress#task-allocation">Task Allocations</a>: 
